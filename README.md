@@ -1,5 +1,6 @@
-# DX-Cluster-on-i2c-Display
-With this project you can read DX spot of DX Cluster on Display i2x 4x20 on Raspberry PI
+# DX-Cluster-on-i2c-Display 4x20
+With this project you can read DX spot of DX Cluster on Display i2x 4x20 on Raspberry PI. If you have a different display, more example 2x16, you must change parameters on file python. But it's not tested. 
+I don't guarantee the correct visualization
 
 For first you must install telnetlib for use telnet with dxcluster node:
 
