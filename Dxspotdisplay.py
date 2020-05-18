@@ -15,9 +15,9 @@ lcd = CharLCD(i2c_expander='PCF8574', address=0x27, port=1,
               auto_linebreaks=True,
               backlight_enabled=True)
 
-tn = telnetlib.Telnet('node address', port) #please ins address and port node
+tn = telnetlib.Telnet('node address', port) #please enter address and port node
 tn.read_until(b"login: ")
-tn.write('your callsign' + "\n") #please ins your callsign
+tn.write('your callsign' + "\n") #please enter your callsign
 time.sleep(5)
 
 # Main body of code
