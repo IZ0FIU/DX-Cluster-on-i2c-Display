@@ -8,3 +8,6 @@ For first you must install telnetlib for use telnet with dxcluster node:
 Now, for display you must install i2c library:
 
 # sudo pip install RPLCD
+
+N.B. I'm a newbie on python and programmation in general. If there are error or stupid string of program, please, send me a report
+Thank you
