@@ -4,11 +4,11 @@ I don't guarantee the correct visualization
 
 For first you must install telnetlib for use telnet with dxcluster node:
 
-# sudo apt-get install telnet
+sudo apt-get install telnet
 
 Now, for display you must install i2c library:
 
-# sudo pip install RPLCD
+sudo pip install RPLCD
 
 In file python you must enter node address, port number and you OM or swl callsign
 
